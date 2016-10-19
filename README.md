@@ -1,45 +1,57 @@
-Steps to Push or Host your First Heroku App
+#<b>Steps to Push or Host your First Heroku App</b>
 
-C:\Users\MDShahrouq>cd gitrepo
 
-C:\Users\MDShahrouq\gitrepo>heroku login
-Enter your Heroku credentials.
-Email: mdshah1994@gmail.com
-Password (typing will be hidden):
-Logged in as mdshah1994@gmail.com
-git 
-C:\Users\MDShahrouq\gitrepo>git clone git://github.com/udacity/galeria.git
-Cloning into 'galeria'...
-remote: Counting objects: 96, done.
-remote: Compressing objects: 100% (53/53), done.
-rRemote: Total 96 (delta 34), reused 96 (delta 34), pack-reused 0eceiving objects:
-Receiving objects:  66% (64/96)
-Receiving objects: 100% (96/96), 11.42 KiB | 0 bytes/s, done.
-Resolving deltas: 100% (34/34), done.
-Checking connectivity... done.
+##Open Command Prompt and Start Typing 
+
+$mkdirgitrep<br>
+$cd gitrepo<br>
+
+$gitrepo><b>heroku login</b><br>
+Enter your Heroku credentials.<br><br><br><br>
+Email: xyzabc@gmail.com<br>
+Password (typing will be hidden):<br>
+Logged in as xyzabc@gmail.com<br><br>
+
+$gitrepo><b>git clone git://github.com/MDShahrouq/helloworld.git<b><br><br>
 
 
 
 
-C:\Users\MDShahrouq\gitrepo>cd galeria
+Cloning into 'helloworld'...<br>
+remote: Counting objects: 96, done.<br>
+remote: Compressing objects: 100% (53/53), done.<br>
+rRemote: Total 96 (delta 34), reused 96 (delta 34), pack-reused 0eceiving objects:<br>
+Receiving objects:  66% (64/96)<br>
+Receiving objects: 100% (96/96), 11.42 KiB | 0 bytes/s, done.<br>
+Resolving deltas: 100% (34/34), done<br>
+Checking connectivity... done.<br>
 
-C:\Users\MDShahrouq\gitrepo\galeria>git status
+
+
+
+<br><br>$gitrepo><b>cd helloworld</b><br><br>
+
+$gitrepo\helloworld><b>git status</b><br><br>
+
 On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 
-C:\Users\MDShahrouq\gitrepo\galeria>heroku create
-Creating app... done, frozen-brushlands-67598
-https://frozen-brushlands-67598.herokuapp.com/ | https://git.heroku.com/frozen-brush
-lands-67598.git
+<br><br>$gitrepo\helloworld><b>heroku create</b><br><br>
 
-C:\Users\MDShahrouq\gitrepo\galeria>git remote -v
-heroku  https://git.heroku.com/frozen-brushlands-67598.git (fetch)
-heroku  https://git.heroku.com/frozen-brushlands-67598.git (push)
-origin  git://github.com/udacity/galeria.git (fetch)
+Creating app... done, frozen-brushlands-67598<br>
+https://frozen-brushlands-67598.herokuapp.com/ | https://git.heroku.com/frozen-brush<br>
+lands-67598.git<br>
+
+$gitrepo\helloworld>git remote -v<br>
+
+heroku  https://git.heroku.com/frozen-brushlands-67598.git (fetch)<br>
+heroku  https://git.heroku.com/frozen-brushlands-67598.git (push)<br>
+origin  git://github.com/udacity/galeria.git (fetch)<br>
 origin  git://github.com/udacity/galeria.git (push)
 
-C:\Users\MDShahrouq\gitrepo\galeria>git push heroku master
+<br><br>$gitrepo\helloworld><b>git push heroku master</b><br><br>
+
 Counting objects: 16, done.
 Delta compression using up to 2 threads.
 Compressing objects: 100% (12/12), done.
