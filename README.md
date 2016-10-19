@@ -10,16 +10,16 @@
 <br>
 ##Open Command Prompt and Start Typing <br>
 
-$mkdir gitrepo<br>
-$cd gitrepo<br>
+$mkdir gitrepo :leftwards_arrow_with_hook:<br>
+$cd gitrepo :leftwards_arrow_with_hook:<br>
 
-$gitrepo><b>heroku login</b><br>
+$gitrepo><b>heroku login</b> :leftwards_arrow_with_hook:<br>
 Enter your Heroku credentials.<br>
 Email: xyzabc@gmail.com<br>
 Password (typing will be hidden):<br>
 Logged in as xyzabc@gmail.com<br><br>
 
-$gitrepo><b>git clone git://github.com/MDShahrouq/helloworld.git</b><br>
+$gitrepo><b>git clone git://github.com/MDShahrouq/helloworld.git</b> :leftwards_arrow_with_hook:<br>
 
 Cloning into 'helloworld'...<br>
 remote: Counting objects: 96, done.<br>
@@ -31,28 +31,28 @@ Resolving deltas: 100% (34/34), done<br>
 Checking connectivity... done.<br>
 
 
-<br>$gitrepo><b>cd helloworld</b><br><br>
+<br>$gitrepo><b>cd helloworld</b> :leftwards_arrow_with_hook:<br><br>
 
-$gitrepo\helloworld><b>git status</b><br><br>
+$gitrepo\helloworld><b>git status</b> :leftwards_arrow_with_hook:<br><br>
 
 On branch master<br>
 Your branch is up-to-date with 'origin/master'.<br>
 nothing to commit, working tree clean
 
-<br><br>$gitrepo\helloworld><b>heroku create</b><br><br>
+<br><br>$gitrepo\helloworld><b>heroku create</b> :leftwards_arrow_with_hook:<br><br>
 
 Creating app... done, frozen-brushlands-67598<br>
 https://frozen-brushlands-67598.herokuapp.com/ | https://git.heroku.com/frozen-brush<br>
 lands-67598.git<br><br>
 
-$gitrepo\helloworld><b>git remote -v</b><br>
+$gitrepo\helloworld><b>git remote -v</b> :leftwards_arrow_with_hook:<br>
 
 heroku  https://git.heroku.com/frozen-brushlands-67598.git (fetch)<br>
 heroku  https://git.heroku.com/frozen-brushlands-67598.git (push)<br>
 origin  git://github.com/udacity/galeria.git (fetch)<br>
 origin  git://github.com/udacity/galeria.git (push)
 
-<br><br>$gitrepo\helloworld><b>git push heroku master</b><br><br>
+<br><br>$gitrepo\helloworld><b>git push heroku master</b> :leftwards_arrow_with_hook:<br><br>
 
 Counting objects: 16, done.<br>
 Delta compression using up to 2 threads.<br>
@@ -102,9 +102,9 @@ remote: Verifying deploy... done.<br>
 To https://git.heroku.com/frozen-brushlands-67598.git<br>
  * [new branch]      master -> master<br>
 <br>
-$gitrepo\helloworld><b>heroku open</b><br><br>
+$gitrepo\helloworld><b>heroku open</b> :leftwards_arrow_with_hook:<br><br>
 
-<b> :+1:Congratulation! You Did It </b>
+<b> :+1:Congratulation! You Did It </b><br>
 <i>Feel Free to Contact me:</i>
 <br>Email:<b>mdshahrouq@gmail.com</b><br>
 Linkedin:<b>https://www.linkedin.com/in/mdshahrouq</b><br>
