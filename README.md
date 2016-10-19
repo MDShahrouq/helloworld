@@ -1,4 +1,4 @@
-#<b>Steps to Push or Host your First Heroku App</b>
+#<b>Steps to Deploy your Web Application with Heroku </b>
 
 ###Prerequisite are as Follows with their Apporpriate Links::<br><br>
 * Heroku Account https://www.heroku.com<br>
@@ -19,7 +19,7 @@ Email: xyzabc@gmail.com<br>
 Password (typing will be hidden):<br>
 Logged in as xyzabc@gmail.com<br><br>
 
-$gitrepo><b>git clone git://github.com/MDShahrouq/helloworld.git<b><br>
+$gitrepo><b>git clone git://github.com/MDShahrouq/helloworld.git</b><br>
 
 Cloning into 'helloworld'...<br>
 remote: Counting objects: 96, done.<br>
@@ -105,4 +105,6 @@ To https://git.heroku.com/frozen-brushlands-67598.git<br>
 $gitrepo\helloworld><b>heroku open</b><br><br>
 
 <b> :+1:Congratulation! You Did It </b>
-
+<i>Feel Free to Contact me:</i>
+<br>Email:<b>mdshahrouq@gmail.com</b><br>
+Linkedin:<b>https://www.linkedin.com/in/mdshahrouq</b><br>
